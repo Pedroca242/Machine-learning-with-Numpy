@@ -35,3 +35,4 @@ y_train = [0, 0, 0, 1]
 model = Perceptron()
 model.fit(X_train, y_train)
 print(model.predict([1, 1]))
+
