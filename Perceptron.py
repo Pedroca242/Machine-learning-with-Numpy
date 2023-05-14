@@ -30,9 +30,9 @@ class Perceptron:
 np.random.seed(123)
 
 X_train = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-y_train = [0, 0, 0, 1]
+y_train = [0, 1, 1, 1]
 
 model = Perceptron()
 model.fit(X_train, y_train)
-print(model.predict([1, 1]))
+print(model.predict([0, 0]))
 
